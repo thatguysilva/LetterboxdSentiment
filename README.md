@@ -1,4 +1,4 @@
-# Sentiment Analysis of Christopher Nolan and Yorgos Lanthimos Movies
+# Letterboxd Sentiment Analysis
 
 ## Project Overview
 
@@ -28,4 +28,14 @@ The analysis is based on audience reviews and ratings for movies directed by Chr
 - Python for data processing and analysis.
 - Libraries like Pandas, NLTK, and Scikit-learn for handling data and performing sentiment analysis.
 - Visualization tools such as Matplotlib and Seaborn to illustrate findings.
+
+## Results
+
+We display below as an example the sentiment score for Interstellar. After filtering comments with invalid characters or in different languages:
+
+![Christopher Nolan Comments](https://raw.githubusercontent.com/thatguysilva/LetterboxdSentiment/main/nolan-comment.png)
+
+We reach:
+
+![Christopher Nolan Score](https://raw.githubusercontent.com/thatguysilva/LetterboxdSentiment/main/nolan-score.png)
 
